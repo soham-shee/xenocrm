@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+
+.nav{
+    flex-direction: column;
+    flex-flow: row;
+}
+
+.nav ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.nav li{
+    margin-top:22px;
+    padding: 0.5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    justify-content: right;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid black;
+}
+
+.text{
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+}
